@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shoppee.shoppeeshell" >
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21" />
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22" />
 
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.internet"/>
