@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="menu_search"
+        android:label="@string/search_label"
+        android:hint="@string/search_hint"
+        android:popupBackground = "#0FFF"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_voice_search_product"
+        android:title="@string/search_voice"
+        android:icon="@drawable/abc_ic_voice_search_api_mtrl_alpha"
+        appcompat:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_camera"
+        android:title="@string/search_camera"
+        android:icon="@drawable/ic_action_camera"
+        appcompat:showAsAction="ifRoom"/>
+</menu>

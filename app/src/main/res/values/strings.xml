@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shoppee</string>
+    <string name="app_header_name">Search a product</string>
+    <string name="app_search_authorities">com.shoppee.shoppeeshell.SearchActivity.SearchProductsSuggestionProvider</string>
+
+    <string name="search_label">Search...</string>
+    <string name="search_hint">Search your products</string>
+
+    <string name="search_camera">Click here to take barcode</string>
+    <string name="search_voice">Click here to voice search</string>
+</resources>
